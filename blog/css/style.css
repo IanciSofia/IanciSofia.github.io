@@ -1,0 +1,236 @@
+/* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
+
+        /* 
+        
+        Spacing 
+
+            - padding (shorthand and/or specific properties like padding-bottom, etc.)
+
+            - margin, (shorthand and/or specific properties like margin-top, etc.)
+
+            - letter-spacing, word-spacing, line-height
+
+            - width, max-width, min-width
+            - height, max-height, min-height
+
+        Typography 
+
+            - font-family, font-size, font-style, font-weight
+
+            - text-decoration, text-align
+
+            - color
+
+            - text-shadow, text-transform
+
+        Box, Layout and Border 
+
+            - border (shorthand and/or specific properties like border-top, border-bottom-radius, border-width, etc.)
+
+            - box-shadow
+
+            - display, float, align-items, align-content
+
+            - grid-template-columns, grid-column-gap
+
+            - transform
+
+        Other
+
+            - :nth()-child (to target specific child elements)
+
+            - :focus, :hover, :active (to target link states)
+
+            - @font-face or @import (to import typefaces)
+
+        */
+
+
+/* ------ START WRITING YOUR CODE BELOW ------ */
+
+main{
+    padding: 1rem;}
+ .highlight {
+    color: darkblue;
+      border-radius: 1rem 1rem 1rem 1rem;
+  background: rgb(66, 17, 17);}
+  p, li {                 
+    font-size: 0.75rem;
+  letter-spacing: 0.031rem;
+  word-spacing: 0.125rem;
+  }
+  h1 {
+    font-family: "roboto", Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5rem;
+    transform: rotate(-5deg)}
+
+.highlight {
+    text-transform: uppercase;
+    font-family: "ultra", Times, serif;
+    font-size: 3rem;
+    border-top-left-radius: 30% 40%;
+    border-bottom-right-radius: 20% 40%;
+    
+    border: 1rem solid maroon;
+    background-color: maroon;
+    color: wheat;
+    text-align: center;}
+ h2 {
+    font-size:2rem;
+    font-weight:100;
+    font-family:'Lato', sans-serif;  }
+h3{
+      margin-top: 0;
+    padding-top: 0;}
+  body {
+    font-family: 'Roboto Condensed', sans-serif; } 
+footer {
+    clear:both;
+    overflow:auto;
+    margin:3% 2%;
+    border-top: 1px ;}
+   footer a {
+    font-size:.75rem;
+    color:darkblue;}
+.left{
+    float: left;}
+
+nav{                   
+padding-top: 1rem;
+height: 5rem;}
+  nav {
+    border-top: .4rem solid black;
+    border-bottom: .4rem solid black;
+    word-spacing: 4rem;
+    line-height: 4rem;
+    margin-left: 3rem;}
+
+nav a{
+      font-family: "lato", Verdana, sans-serif;
+    font-size: 2rem;
+    color: dark blue;}
+    .slash {
+        text-decoration-line: line-through;
+        width: 10rem;
+        height: 10rem;
+        color: black;
+        text-transform: uppercase;}  
+
+nav ul {
+list-style-type: none;
+overflow: hidden;
+background-color: whitesmoke;
+border-style: solid;
+border-color: darkblue;
+padding-bottom: 1rem;
+padding-top: 1rem;
+padding-left: 0;
+border-right-color: transparent;
+border-left-color: transparent;}
+  li a:hover {
+ 
+    color: rgb(13, 13, 174);}     
+                               
+        
+                                
+    @font-face {
+        font-family: "roboto";
+        src: url(../fonts/sans-serif/roboto-regular.ttf) format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: "ultra";
+        src: url(../fonts/serif/ultra-regular.ttf) format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: "lato";
+        src: url(../fonts/sans-serif/lato-regular.ttf) format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    section{
+        margin: 1rem;
+        
+        }
+        figure{
+            margin: 0;
+        }
+        figure img {
+          width: 100%;
+          margin:0;  
+}
+article{
+    max-width: 70%;
+    float: left;
+    padding-right: 1rem ;
+     border-right: 1px;
+     padding-bottom: 7rem; 
+     border-right: 1px solid black;  }
+ 
+     .main-section{
+    max-width: 100%
+    display: flex;
+    vertical-align: center;}
+
+    .subsection{
+max-width: 100%;
+   display: inline-block;}
+
+   .figures{
+padding: 1rem;
+ float: left;
+  width: 31%;
+  padding: 0.5rem;}
+ 
+  .article-image{
+width: 40%;
+float: left;
+padding-right: 1rem;}
+aside{
+    width: 25%;
+    float: right;}
+
+    aside img{
+    width: 100%;
+    background-size: cover;}
+    
+
+    aside p{
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+    font-size: 0.65rem;
+}
+figcaption{
+    margin-top:0 ;
+    padding-top: 1rem;
+    opacity: 70%;
+    background-color:wheat;}
+.expand{
+    text-decoration: none;}
+
+     
+    button {
+        font-family:"roboto", Verdana, sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        border: 2rem black;
+        background-color: navy;
+        color: white;
+        margin-top: 1.2rem;}
+
+ .copyright {
+    font-size:.75rem;
+    text-align:right;}
+
+ 
+    
+
+
